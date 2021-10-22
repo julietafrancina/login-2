@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;900&display=swap");
+
+body {
+    font-family: "Montserrat", sans-serif;
+    min-height: 100vh;
+    background: linear-gradient(
+        0deg,
+        rgba(42, 80, 187, 1) 0%,
+        rgba(185, 76, 143, 1) 100%
+    );
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-container {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    min-height: 600px;
+    min-width: 350px;
+    padding: 45px;
+    padding-top: 70px;
+}
+
+.main-container .main-title {
+    font-weight: 900;
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 40px;
+    color: #2a2a2a;
+}
+
+.main-container .form-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-container .form-container input {
+    background-color: #e6e6e6;
+    border: none;
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+.main-container .form-container .checkbox-container .remember {
+    color: #818181;
+    font-size: 13px;
+}
+
+.main-container .login-button {
+    background-color: #b94c8f;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.main-container .login-with-text {
+    text-align: center;
+    color: #818181;
+    font-size: 13px;
+    margin-bottom: 25px;
+}
+
+.main-container .social-media-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.main-container .social-media-wrapper a {
+    text-decoration: none;
+    color: #2a2a2a;
+    font-weight: 700;
+    border: 1px solid #c5c5c5;
+    padding: 12px;
+    width: 145px;
+    display: flex;
+    justify-content: center;
+}
+
+.main-container .social-media-wrapper a img {
+    width: 15px;
+    margin-right: 5px;
+}
+
+.main-container .bottom-text {
+    color: #818181;
+    text-align: center;
+}
+
+.main-container .bottom-text .sign-up-link {
+    color: #818181;
+}
